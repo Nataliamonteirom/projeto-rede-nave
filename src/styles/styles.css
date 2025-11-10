@@ -91,6 +91,57 @@ body{
     padding: 12px;
 }
 
+.rodape{
+    background-color: #7E2B98;
+}
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.footer-sections {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; 
+  margin-bottom: 20px;
+}
+
+.footer-social h3{
+    color: #fefcfc;
+    padding-bottom: 16px;
+}
+
+.footer-social a {
+  margin-right: 15px;
+  padding-top: 16px;
+  font-size: 24px;
+  color: #FFF;
+  transition: color 0.3s;
+}
+
+.footer-social a:hover {
+  color: #7a3eb5;
+}
+
+.footer-contatos{
+    color: #fefcfc;
+}
+
+.footer-contatos address p {
+  margin: 5px 0;
+}
+
+.footer-contatos address p a{
+    color: #fefcfc;
+}
+
+.footer-copy {
+  text-align: center;
+  font-size: 14px;
+  color: #fefcfc;
+}
+
 
 
 
