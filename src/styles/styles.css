@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Quicksand", sans-serif;
+}
+
+.header{
+    background-image: url(/src/assets/images/croche-banner.png);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar{
+    background-color: #FFFCF6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar img{
+    width: 70px;
+    height: 70px;
+}
+
+.nav-menu ul{
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;   
+}
+
+.nav-item a {
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #7E2B98;
+    padding: 12px;
+    margin: 12px;
+    border-radius: 12px;
+    color: #FFF;
+}
+
+.btn a{
+    text-decoration: none;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 600;
+}
