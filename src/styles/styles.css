@@ -55,3 +55,43 @@ body{
     text-transform: uppercase;
     font-weight: 600;
 }
+
+.main-content{
+    background-color: #FFFCF6;
+    height: 500px;
+}
+
+.title{
+    color: #A3C73B;
+    font-size: 60px;
+    padding-left: 204px;
+    padding-top: 70px;
+}
+
+.text-intro{
+    color: #A3C73B;
+    font-size: 40px;
+    font-weight: 400;
+    padding-left: 204px;
+    padding-top: 12px;
+}
+
+.btn-wrapper{
+    padding-left: 204px;
+    border: none;
+    padding-top: 24px;
+}
+
+.btn-default a{
+    text-decoration: none;
+    color: #FFF;
+    background-color: #4FA8B6;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+
+
+
+
