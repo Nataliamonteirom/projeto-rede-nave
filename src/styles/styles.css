@@ -15,11 +15,11 @@ body{
 
 .header{
     background-image:url(/src/assets/images/croche-banner.png);
-    height: 400px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
+
 
 .navbar{
     background-color: #FFFCF6;
@@ -63,7 +63,7 @@ body{
 
 .main-content{
     background-color: #FFFCF6;
-    height: 500px;
+
 }
 
 passion-section {
