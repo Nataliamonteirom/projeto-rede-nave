@@ -1,0 +1,225 @@
+/* Variáveis para cores */
+:root {
+    --cor-principal: #5e35b1; /* Roxo principal, um pouco mais escuro que o do botão */
+    --cor-rodape: #7b1fa2; /* Roxo escuro do rodapé */
+    --cor-texto-principal: #333;
+    --cor-fundo: #f3f3f3; /* Fundo claro da página */
+    --cor-borda-input: #ccc;
+    --cor-texto-claro: white;
+}
+
+/* Estilo global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif; /* Simples para imitar a fonte */
+}
+
+body {
+    background-color: var(--cor-fundo);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh; /* Ocupa a altura total da viewport */
+}
+
+/* Simulação do cabeçalho superior esquerdo "Redefinir Senha" */
+.top-header {
+    width: 100%;
+    max-width: 1000px; /* Largura base para o conteúdo principal */
+    padding: 20px 0 0 20px;
+    color: #888;
+    font-size: 0.9em;
+}
+.top-header h1 {
+    font-size: 1em;
+    font-weight: normal;
+}
+
+/* Container que simula o fundo branco central */
+.content-container {
+    background-color: var(--cor-texto-claro);
+    width: 90%;
+    max-width: 600px; /* Largura do bloco de formulário */
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    padding: 40px 20px;
+    margin-top: 20px;
+    flex-grow: 1; /* Permite que cresça e empurre o rodapé para baixo */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Estilo do Logo */
+.logo-container {
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 80px; /* Ajuste o tamanho conforme a imagem original */
+    height: auto;
+}
+
+/* Seção do Formulário */
+.form-section {
+    width: 100%;
+    max-width: 400px; /* Largura do formulário */
+}
+
+.form-section h2 {
+    color: var(--cor-principal);
+    font-size: 2em;
+    margin-bottom: 10px;
+    font-weight: 500; /* Para parecer menos negrito */
+}
+
+.form-section p {
+    color: var(--cor-texto-principal);
+    font-size: 1em;
+    margin-bottom: 30px;
+}
+
+/* Grupo do Input de Email */
+.input-group {
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--cor-borda-input);
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    background-color: var(--cor-texto-claro);
+}
+
+.input-group input {
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    padding: 5px 0;
+    font-size: 1.1em;
+    color: var(--cor-texto-principal);
+}
+
+.input-group input::placeholder {
+    color: #aaa;
+}
+
+.input-group .icon {
+    color: var(--cor-borda-input);
+    margin-left: 10px;
+    font-size: 1.2em;
+}
+
+/* Botão de Redefinir */
+.redefinir-btn {
+    background-color: var(--cor-principal);
+    color: var(--cor-texto-claro);
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.redefinir-btn:hover {
+    background-color: #4a278d; /* Escurece um pouco no hover */
+}
+
+/* Estilo do Rodapé Roxo */
+.footer-nave {
+    background-color: var(--cor-rodape);
+    color: var(--cor-texto-claro);
+    width: 100%;
+    padding: 30px 20px 10px;
+    margin-top: auto; /* Empurra o rodapé para o final da página */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: 0 auto 20px;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+/* Links Sociais no Rodapé */
+.social-links {
+    display: flex;
+    gap: 15px;
+    font-size: 1.5em;
+    margin-bottom: 20px; /* Para telas menores */
+}
+
+.social-links a {
+    color: var(--cor-texto-claro);
+    text-decoration: none;
+    border: 1px solid var(--cor-texto-claro);
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+.social-links a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Informações de Contato */
+.contact-info {
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+.contact-info p {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+/* Direitos Autorais */
+.copyright {
+    text-align: center;
+    font-size: 0.75em;
+    opacity: 0.8;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+/* Ajustes para Responsividade (telas pequenas) */
+@media (max-width: 600px) {
+    .form-section h2 {
+        font-size: 1.5em;
+    }
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .contact-info {
+        margin-top: 20px;
+    }
+    .contact-info ul {
+        padding-left: 20px; /* Adiciona algum padding para a lista */
+        text-align: left;
+    }
+    .social-links {
+        justify-content: center;
+    }
+}
+  
