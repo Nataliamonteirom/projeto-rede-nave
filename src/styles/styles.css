@@ -13,6 +13,7 @@ body{
     font-family: "Quicksand", sans-serif;
 }
 
+<<<<<<< HEAD
 .header-banner {
     background-size: cover;     /* Faz a imagem preencher 100% */
   background-position: center; /* Centraliza */
@@ -26,6 +27,15 @@ body{
     height: 100%;
     object-fit: cover; /* faz a imagem preencher sem distorcer */
 }
+=======
+.header{
+    background-image:url(/src/assets/images/croche-banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+>>>>>>> 2417944162a272d03538c1ce4dc97c377e73c763
 
 .navbar{
     background-color: #FFFCF6;
@@ -35,8 +45,12 @@ body{
 }
 
 .navbar img{
+<<<<<<< HEAD
     margin: 10px 0 10px 0;
     width: 60px;
+=======
+    width: 70px;
+>>>>>>> 2417944162a272d03538c1ce4dc97c377e73c763
     height: 70px;
 }
 
@@ -53,11 +67,14 @@ body{
     text-decoration: none;
 }
 
+<<<<<<< HEAD
 .title-section{
     padding-top:  3%;
     padding-bottom: 3%;
 }
 
+=======
+>>>>>>> 2417944162a272d03538c1ce4dc97c377e73c763
 .btn {
     background-color: #7E2B98;
     padding: 12px;
@@ -66,17 +83,24 @@ body{
     color: #FFF;
 }
 
+<<<<<<< HEAD
 .btn-default{
     display: block;
     margin-left: 11%;
     margin-top: 12px;
 }
 
+=======
+>>>>>>> 2417944162a272d03538c1ce4dc97c377e73c763
 .btn a{
     text-decoration: none;
     color: #FFF;
     text-transform: uppercase;
+<<<<<<< HEAD
     font-weight: 600px;
+=======
+    font-weight: 600;
+>>>>>>> 2417944162a272d03538c1ce4dc97c377e73c763
 }
 
 .main-content{
@@ -113,21 +137,36 @@ passion-section {
 }
 
 .card-grid {
+<<<<<<< HEAD
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(260px, 1fr));; /* Permite que os cards quebrem para a próxima linha */
     gap: 20px; /* Espaço entre os cards */
+=======
+    display: flex;
+    flex-wrap: wrap; /* Permite que os cards quebrem para a próxima linha */
+    gap: 30px; /* Espaço entre os cards */
+>>>>>>> 2417944162a272d03538c1ce4dc97c377e73c763
     justify-content: center; /* Centraliza os cards */
 }
 
 .trilha-card {
     background-color: #ffffff;
     border: 1px solid #ddd;
+<<<<<<< HEAD
     border-radius: 14px;
     padding: 20px;
     width: 100%; /* Largura padrão */
     max-width: 250px; /* Largura máxima para desktop */
     text-align: center;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+=======
+    border-radius: 8px;
+    padding: 30px;
+    width: 100%; /* Largura padrão */
+    max-width: 250px; /* Largura máxima para desktop */
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+>>>>>>> 2417944162a272d03538c1ce4dc97c377e73c763
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -191,20 +230,29 @@ passion-section {
     }
 }
 .title{
+<<<<<<< HEAD
     color: #7E2B98;
+=======
+    color: #A3C73B;
+>>>>>>> 2417944162a272d03538c1ce4dc97c377e73c763
     font-size: 60px;
     padding-left: 204px;
     padding-top: 70px;
 }
 
 .text-intro{
+<<<<<<< HEAD
     color: #7E2B98;
+=======
+    color: #A3C73B;
+>>>>>>> 2417944162a272d03538c1ce4dc97c377e73c763
     font-size: 40px;
     font-weight: 400;
     padding-left: 204px;
     padding-top: 12px;
 }
 
+<<<<<<< HEAD
 .btn-wrapper {
     display: flex;
     justify-content: center; 
@@ -221,6 +269,21 @@ passion-section {
     display: inline-block;
     border: none;
     outline: none;
+=======
+.btn-wrapper{
+    padding-left: 204px;
+    border: none;
+    padding-top: 24px;
+}
+
+.btn-default a{
+    text-decoration: none;
+    color: #FFF;
+    background-color: #4FA8B6;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 12px;
+>>>>>>> 2417944162a272d03538c1ce4dc97c377e73c763
 }
 
 .rodape{
@@ -249,7 +312,10 @@ passion-section {
   padding-top: 16px;
   font-size: 24px;
   color: #FFF;
+<<<<<<< HEAD
   text-decoration: none;
+=======
+>>>>>>> 2417944162a272d03538c1ce4dc97c377e73c763
   transition: color 0.3s;
 }
 
